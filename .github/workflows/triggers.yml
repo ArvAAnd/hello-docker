@@ -31,6 +31,7 @@ jobs:
 
   deploy-to-azure:
     name: Deploy to Azure Web App
+    runs-on: ubuntu-latest
     steps:
       - uses: azure/login@v2
         with:
